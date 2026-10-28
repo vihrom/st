@@ -7,7 +7,7 @@
  */
 static char *font =
 	"Liberation Mono:pixelsize=15:antialias=true:autohint=true";
-static int borderpx = 2;
+static int borderpx = 1;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -107,7 +107,7 @@ static const char *colorname[] = {
 	[7] = "#000000",
 
 	/* 8 bright colors */
-	[8]  = "#555555",
+	[8]  = "#777777",
 	[9]  = "#bb0000",
 	[10] = "#007700",
 	[11] = "#885500",
@@ -149,8 +149,8 @@ static unsigned int rows = 24;
  * Default colour and shape of the mouse cursor
  */
 static unsigned int mouseshape = XC_xterm;
-static unsigned int mousefg = 7;
-static unsigned int mousebg = 0;
+static unsigned int mousefg = 258;
+static unsigned int mousebg = 259;
 
 /*
  * Color used to display font attributes when fontconfig selected a font which
